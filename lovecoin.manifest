@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# Release V0.2
+
+NETWORK:
+/
+
+CACHE:
+/index.styles.css
+/index.bundle.js
+/img/logo.a961dfbf36f110092c3f2d35778fa3db.png
+/fonts/fontawesome-webfont.af7ae505a9eed503f8b8e6982036873e.woff2
+/fonts/Simple-Line-Icons.0cb0b9c589c0624c9c78dd3d83e946f6.woff2
+/index.fonts.css
+
+FALLBACK:
+/
