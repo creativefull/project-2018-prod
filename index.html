@@ -9,8 +9,8 @@
 
       <meta property="og:title" content="Ferarri Coin">
       <meta property="og:description" content="The next generation of advanced solution for global money transaction">
-      <meta property="og:image" content="https://ferraricoin.co/ico/img/FCTRPNT.jpg">
-      <meta property="og:url" content="https://ferraricoin.co">
+      <meta property="og:image" content="https://ferraricoin.io/ico/img/FCTRPNT.jpg">
+      <meta property="og:url" content="https://ferraricoin.io">
 
       <link rel="stylesheet" type="text/css" href="/ico/css/bootstrap.css">
       <link rel="stylesheet" type="text/css" href="/ico/css/bootstrap.min.css">
@@ -67,7 +67,7 @@
                  <div class="row">
                    <div class="col-md-12">
                       <center>
-                        <img src="/ico//img/FCTRPNT.png" width="400px"/>
+                        <img src="/ico/img/FCTRPNT.png" width="100%"/>
                       </center>
                    </div>
                   </div>
@@ -77,7 +77,7 @@
                <div class="head-fearured-box">
                  <div class="col-md-12">
                     <h3>ICO Start At</h3>
-                    <p>25 Desember 2017</p>
+                    <p>8 January 2018</p>
                   </div>
                   <div class="col-md-12">
                     <div id="clockdiv">
@@ -100,8 +100,11 @@
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <p>You can start buying the rest of 5000000 FEC on January 12th to January 14th at 10 am - NewYork time (GMT - 5)</p>
+                    <p>You can paid with bitcoin after you already deposit the bitcoin in your wallet</p>
                   </div>
+                  <!--<div class="col-md-12">
+                    <p>You can start buying the rest of 5000000 FEC on January 12th to January 14th at 10 am - NewYork time (GMT - 5)</p>
+                  </div>-->
                   <div class="col-md-12">
                       <a href="/ico/#/register" title="Buy FEC" class="btn btn-lg btn-block btn-primary">Buy Now</a>
                   </div>
@@ -111,8 +114,8 @@
          </div>
          <div class="featured-media">
             <div style="width: 100%; margin:5px; color: #333">
-              <h3>Round Lending ICO</h3>
-              <p>Special offer for leaders to buy FEC on the last ICO day</p>
+              <h3>WHAT IS FERRARI COIN</h3>
+              <!--<p>Special offer for leaders to buy FEC on the last ICO day</p>-->
             </div>
          </div>
       </div>
@@ -127,10 +130,11 @@
                <a href="" style="color:#0287D0; font-weight: 600; letter-spacing: 2px;"><img src="/ico/img/pdf-file-format-symbol.png" style="margin: 10px 5px;"> WHITE PAPER</a>
             </div>
             <div class="col-md-6 col-xs-12">
-               <div class="box-candidate-c">
+                <img src="/background-upcoming.png" width="100%"/>
+               <!--<div class="box-candidate-c">
                   <div class="box-incandidate">
                      <div class="col-md-4">
-                        <p style="margin-top: 10px;"><b>Candidate 1</b></p>
+                        <p style="margin-top: 10px;"><b>Round 1</b></p>
                         14 567 Votes	
                      </div>
                      <div class="col-md-8">
@@ -169,7 +173,7 @@
                         </div>
                      </div>
                   </div>
-               </div>
+               </div>-->
             </div>
          </div>
       </div>
@@ -315,7 +319,7 @@
       <!--<div class="footer-section-top"></div>-->
       <div class="footer-section" style="padding: 50px !important">
          <div class="container">
-           <div class="col-md-3">
+           <div class="col-md-3 col-xs-12 col-sm-12">
               <img src="/ico/img/logo2.png" width="200px"/>
               <div class="row">
                 <div class="col-md-12">
@@ -330,17 +334,17 @@
                 </div>
               </div>
            </div>
-           <div class="col-md-6" style="line-height: 40px">
-              <ul class="bottom-nav" style="padding: 0px">
+           <div class="col-md-6 col-xs-12 col-sm-12" style="line-height: 40px">
+              <ul class="bottom-nav" style="padding: 0px; margin-left: -20px; font-size: 12px">
                   <li><a href="#">ABOUT</a></li>
                   <li><a href="#">ROADMAP</a></li>
-                  <li><a href="#">ICO</a></li>
-                  <li><a href="#">LOGIN</a></li>
-                  <li><a href="#">REGISTER</a></li>
+                  <li><a href="/ico">ICO</a></li>
+                  <li><a href="/ico/#/login">LOGIN</a></li>
+                  <li><a href="/ico/#/register">REGISTER</a></li>
                </ul>
             </div>
-            <div class="col-md-3">
-              <a class="btn btn-lg btn-block btn-primary">
+            <div class="col-md-3 col-xs-12 col-sm-12">
+              <a class="btn btn-lg btn-block btn-primary" href="/ico/#/">
                 Buy ICO
               </a>
             </div>
@@ -400,7 +404,7 @@
          }
 
          function getToken() {
-           $.get("https://api.ferraricoin.co/api/get/ico/", (data) => {
+           $.get("https://api.ferraricoin.io/api/get/ico/", (data) => {
               if (data.status == 200) {
                 var element = ""
                 data.data.ico.forEach(function(d) {
