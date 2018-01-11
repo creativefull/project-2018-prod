@@ -492,7 +492,7 @@
       <script type="text/javascript">
          
          function getTimeRemaining(endtime) {
-           var t = Date.parse(endtime) - Date.parse(moment().zone("+08:00").format("YYYY-MM-DD HH:mm:ss"));
+           var t = Date.parse(endtime) - Date.parse(moment().zone("-09:00").format("YYYY-MM-DD HH:mm:ss"));
            var seconds = Math.floor((t / 1000) % 60);
            var minutes = Math.floor((t / 1000 / 60) % 60);
            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
