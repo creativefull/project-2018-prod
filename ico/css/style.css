@@ -18,6 +18,9 @@ a:hover {
   -ms-transition: all 2s ease;  
   transition: all 2s ease;
     }
+    .bottom-nav {
+        display: block !important;
+    }
 }
 @media (min-width: 1000px) {
     #mySidenav {
@@ -712,4 +715,13 @@ h1{
 .bottom-nav a {
     padding: 10px 15px;
     color: #6f6f6f;
+}
+
+.blue {
+    background-color: #0287D0;
+    color: #FFF;
+}
+.color-black {
+    color: #333;
+    margin: 0px;
 }
